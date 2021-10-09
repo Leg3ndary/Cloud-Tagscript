@@ -4,6 +4,8 @@
 
 This tutorial of sorts is just meant to clarify how I made the [Shell Tag](https://discord.com/channels/186980582863929345/474346837352906752/847923391758991382)
 
+[Repl Link](https://replit.com/@TenshiBot/leg3ndarytagscript#main.py)
+
 ## Now what is Marshmellow?
 
 Marshmellow is really just similar word for cloud, maybe this is what it'll be called in the future, maybe not.
