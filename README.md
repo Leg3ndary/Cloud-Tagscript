@@ -72,21 +72,21 @@ Cons:
 
 ## Final Notes
 
-I will be talking as if you understand many tagscript concepts, if you're not sure if you will understand try to understand the following.
+I will be talking as if you understand many tagscript concepts. If you're not sure if you will, try to understand the following.
 
 ```
-Create a role color command that assigns a role based on a keyword using a switch, blankify the role command so that it won't execute if the keyword isn't found in the switch.
+Create a tag that assigns a role based on a keyword using a switch. If the keyword is not found, show an error and do not execute the commmand.
 ```
 
-If you understand that you're fine, if not try to learn a bit more tagscript before moving on.
+If you understand that, you're probably fine. If not, try to learn a bit more tagscript before moving on.
 
-This is entirely possible without python, I just used that because its simple and the first language I learned.
+This is entirely possible using a language other than python, I just used that because its simple and the first language I learned.
 
 ## Finally
 
-If you want to learn about how I made everything with python head on over to the README in the python folder
+If you want to learn about how I made everything with python head on over to the [python folder](python)
 
-If you want to learn just about how you can integrate api endpoints with tagscript head on over to the regular folder
+If you want to learn just about how you can integrate api endpoints with tagscript head on over to the [regular folder](regular)
 
 I hope you have as much fun as I did using this new concept!
 
