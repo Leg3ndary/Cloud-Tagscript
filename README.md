@@ -68,11 +68,11 @@ Pros:
 Cons:
 
 1. Not 100% secure
-2. Requires a lot more work (It took me a week to work through everything with almost no prior knowledge... I'd say it now take me around a day now but thats still a lot)
+2. Requires a lot more work (It took me a week to work through everything with almost no prior knowledge... I'd say it would now take me around a day now, but thats still a lot)
 
 ## Final Notes
 
-I will be talking as if you understand many tagscript concepts. If you're not sure if you will, try to understand the following.
+You should understand many tagscript concepts. If you're not sure if you will, try to understand the following.
 
 ```
 Create a tag that assigns a role based on a keyword using a switch. If the keyword is not found, show an error and do not execute the commmand.
