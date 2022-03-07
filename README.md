@@ -1,4 +1,4 @@
-# Marshmellow-Tagscript
+# Cloud-Tagscript
 
 **Warning** this is a complicated (semi) idea in tagscript and without a very good understanding of all of the communites basic methods and tips I highly recommend you don't continue.
 
@@ -6,9 +6,7 @@ This tutorial of sorts is just meant to clarify how I made the [Shell Tag](https
 
 [Repl Link](https://replit.com/@TenshiBot/leg3ndarytagscript#main.py)
 
-## Now what is Marshmellow?
-
-Marshmellow is really just similar word for cloud, maybe this is what it'll be called in the future, maybe not.
+## Now what is Cloud?
 
 Carl-bot offers a very unique and interesting language called tagscript, however one of the major downsides of it, is you currently have no way to save data in an efficient, secure way (Tagscript is still fun and interesting though). 
 
