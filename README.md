@@ -82,7 +82,7 @@ This is entirely possible using a language other than python, I just used that b
 
 ## Finally
 
-If you want to learn about how I made everything with python head on over to the [python folder](python)
+If you want to learn about how I made everything with python, head on over to the [python folder](python)
 
 If you want to learn just about how you can integrate api endpoints with tagscript head on over to the [regular folder](regular)
 
