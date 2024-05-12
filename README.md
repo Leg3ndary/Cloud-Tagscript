@@ -4,51 +4,35 @@ This is a tutorial of how I made the [Shell Tag](https://discord.com/channels/18
 
 [Repl Link](https://replit.com/@TenshiBot/leg3ndarytagscript#main.py)
 
-## Now what is Cloud?
+## The Problem
 
-Carl-bot offers a very unique and interesting language called tagscript, however one of the major downsides of it, is you currently have no way to save data in an efficient, secure way (Tagscript is still fun and interesting though). 
+Carl-bot offers a very unique and interesting language called tagscript, however, one of the major downsides of it, is you currently have no way to save data in an efficient, secure way. 
 
-To save data you have in a sense 2 options in tagscript:
+To save data you have in a sense 2 options in Tagscript:
 
 1. Saving users nicknames
     - Doesn't work unless you either ping an alt user or have a user continuously run the command for you
-    - Takes up a command block that has to edit a users nickname
-    - The data is basically publicly available
+    - Takes up a command block that has to edit a user nickname
+    - The data is publicly available
     - Limited to 32 characters
-2. Using a role color and changing its value
+2. Using a role colour and changing its value
     - Limited to the same permissions as no 1
     - Information is in a sense also publicly available
     - Limited to 6 characters that are case insensitive and can only have 0-9 with no emojis
     - Also uses a command block
 
-In essence, you really cannot save data in a desirable way...
+In essence, you really cannot desirably save data...
 
 So how do we work around this?
 
-A user by the name of **Squidtoon99#3637** first made a tag quite a while back, in which he made a bot capable of doing much more by using api endpoints through a third party service known as https://repl.it.
-
-[The tag link.](https://discord.com/channels/186980582863929345/474346837352906752/763139745068875776)
-
-This intrigued me, how was someone able to make such complicated functions, at that time I really didn't understand any python though so I didn't think much of it and left it.
-
-Note at this point this tag wasn't able to save data, it was just able to do a lot more complicated actions.
-
-## 6 Months Later
-
-Fast forward a few months and I stumbled accross it again, this time understanding a lot more python I decided to take a look and here comes an amazing idea.
-
-Simply put, when discord sends an image in an embed it makes a request (It requests twice actually but that isn't important right now), this request then displays the actual image for you. Meaning if you were to make discord send a request for an image you can return an image while also doing something iternally.
-
-Think of it like this
+Here's a solution I propose:
 
 1. User sends !help
 2. Carl now makes an embed with an image from a url like so [Image](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Picture_icon_BLACK.svg/1200px-Picture_icon_BLACK.svg.png)
 3. Before carl sends it discord requests the image url
 4. Discord sends the embed Carl requested with the image url
 
-This basic idea was so simple, yet so smart and so after a bit of practice with flask I tried to make Carls first way of saving data in a more efficient, maybe secure way.
-
-## Before I get into it
+## Pros/Cons
 
 Everything has its pros and cons, I'll explain them here and now.
 
@@ -65,27 +49,3 @@ Cons:
 
 1. Not 100% secure
 2. Requires a lot more work (It took me a week to work through everything with almost no prior knowledge... I'd say it would now take me around a day now, but thats still a lot)
-
-## Final Notes
-
-You should understand many tagscript concepts. If you're not sure if you will, try to understand the following.
-
-```
-Create a tag that assigns a role based on a keyword using a switch. If the keyword is not found, show an error and do not execute the commmand.
-```
-
-If you understand that, you're probably fine. If not, try to learn a bit more tagscript before moving on.
-
-This is entirely possible using a language other than python, I just used that because its simple and the first language I learned.
-
-## Finally
-
-If you want to learn about how I made everything with python, head on over to the [python folder](python)
-
-If you want to learn just about how you can integrate api endpoints with tagscript head on over to the [regular folder](regular)
-
-I hope you have as much fun as I did using this new concept!
-
-Good luck and have fun!
-
-- _Leg3ndary
