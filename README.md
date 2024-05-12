@@ -1,8 +1,6 @@
 # Cloud-Tagscript
 
-**Warning** this is a complicated (semi) idea in tagscript and without a very good understanding of all of the communites basic methods and tips I highly recommend you don't continue.
-
-This tutorial of sorts is just meant to clarify how I made the [Shell Tag](https://discord.com/channels/186980582863929345/474346837352906752/847923391758991382)
+This is a tutorial of how I made the [Shell Tag](https://discord.com/channels/186980582863929345/474346837352906752/847923391758991382)
 
 [Repl Link](https://replit.com/@TenshiBot/leg3ndarytagscript#main.py)
 
